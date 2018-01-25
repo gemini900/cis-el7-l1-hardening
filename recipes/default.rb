@@ -8,12 +8,12 @@ when 'rhel'
   if node['platform_version'].to_f >= 7.0
 
     # Remiation recipes includes (alphabetical)
-    include_recipe 'cis-el7-l1-hardening::at_daemon'
-    include_recipe 'cis-el7-l1-hardening::aide'
-    include_recipe 'cis-el7-l1-hardening::avahi'
-    include_recipe 'cis-el7-l1-hardening::core_dumps'
-    include_recipe 'cis-el7-l1-hardening::cron'
-    include_recipe 'cis-el7-l1-hardening::firewalld'
+#    include_recipe 'cis-el7-l1-hardening::at_daemon'
+#    include_recipe 'cis-el7-l1-hardening::aide'
+#    include_recipe 'cis-el7-l1-hardening::avahi'
+#    include_recipe 'cis-el7-l1-hardening::core_dumps'
+#    include_recipe 'cis-el7-l1-hardening::cron'
+#    include_recipe 'cis-el7-l1-hardening::firewalld'
     include_recipe 'cis-el7-l1-hardening::grub'
     include_recipe 'cis-el7-l1-hardening::init'
     include_recipe 'cis-el7-l1-hardening::kernel'
